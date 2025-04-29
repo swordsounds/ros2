@@ -1,4 +1,0 @@
-Invoking command in '/home/timl/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/polygon_base -- -j6 -l6
-Invoked command in '/home/timl/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/polygon_base -- -j6 -l6
-Invoking command in '/home/timl/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/build/polygon_base
-Invoked command in '/home/timl/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/build/polygon_base

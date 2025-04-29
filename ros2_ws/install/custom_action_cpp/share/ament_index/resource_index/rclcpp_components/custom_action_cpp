@@ -1,2 +1,0 @@
-custom_action_cpp::FibonacciActionServer;lib/libaction_server.so
-custom_action_cpp::FibonacciActionClient;lib/libaction_client.so
