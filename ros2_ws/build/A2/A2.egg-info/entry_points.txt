@@ -1,3 +1,0 @@
-[console_scripts]
-counter_pub = A2.number_publisher:main
-counter_sub = A2.number_subscriber:main
