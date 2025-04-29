@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="A2" exec="counter_pub"/>
+    <node pkg="my_py_pkg" exec="py_node"/>
+</launch>
+<!-- ros2 launch <PKG_NAME> <EXECUTABLE> -->
