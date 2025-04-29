@@ -1,0 +1,52 @@
+[0.011s] Invoking command in '/home/timl/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/install/my_cpp_pkg
+[0.370s] -- The C compiler identification is GNU 13.3.0
+[1.257s] -- The CXX compiler identification is GNU 13.3.0
+[2.296s] -- Detecting C compiler ABI info
+[2.754s] -- Detecting C compiler ABI info - done
+[2.764s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.765s] -- Detecting C compile features
+[2.766s] -- Detecting C compile features - done
+[2.943s] -- Detecting CXX compiler ABI info
+[3.341s] -- Detecting CXX compiler ABI info - done
+[3.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.353s] -- Detecting CXX compile features
+[3.354s] -- Detecting CXX compile features - done
+[3.364s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.546s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.684s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.025s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.053s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.294s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.303s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.431s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.735s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.197s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.327s] -- Added test 'lint_cmake' to check CMake code style
+[5.329s] -- Added test 'xmllint' to check XML markup files
+[5.331s] -- Configuring done (5.3s)
+[5.338s] -- Generating done (0.0s)
+[5.340s] -- Build files have been written to: /home/timl/ros2_ws/build/my_cpp_pkg
+[5.350s] Invoked command in '/home/timl/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/install/my_cpp_pkg
+[5.351s] Invoking command in '/home/timl/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[5.394s] Invoked command in '/home/timl/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[5.404s] Invoking command in '/home/timl/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/build/my_cpp_pkg
+[5.412s] -- Install configuration: ""
+[5.412s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.413s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.413s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.413s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.413s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.414s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.414s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.414s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.414s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.414s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.415s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.415s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.415s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.415s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.415s] -- Installing: /home/timl/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.417s] Invoked command in '/home/timl/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/build/my_cpp_pkg

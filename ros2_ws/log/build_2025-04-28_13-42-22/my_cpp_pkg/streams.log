@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/timl/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.040s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.274s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.536s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.973s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.214s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.368s] -- Configuring done (1.3s)
+[1.373s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[1.373s]   Cannot find source file:
+[1.373s] 
+[1.373s]     src/add_two_ints_servere.cpp
+[1.373s] 
+[1.373s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.373s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.373s]   .f95 .f03 .hip .ispc
+[1.373s] 
+[1.373s] [0m
+[1.374s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[1.374s]   No SOURCES given to target: add_two_ints_server
+[1.374s] 
+[1.374s] [0m
+[1.374s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.382s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[1.385s] Invoked command in '/home/timl/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/test_program.dir/src/test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_program[0m
+[100%] Built target test_program
+-- Install configuration: ""
+-- Installing: /home/timl/ros2_ws/install/test_node/lib/test_node/test_program
+-- Set non-toolchain portion of runtime path of "/home/timl/ros2_ws/install/test_node/lib/test_node/test_program" to ""
+-- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/package_run_dependencies/test_node
+-- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/parent_prefix_path/test_node
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/ament_prefix_path.sh
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/ament_prefix_path.dsv
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/path.sh
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/path.dsv
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.bash
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.sh
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.zsh
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.dsv
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/package.dsv
+-- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/packages/test_node
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/cmake/test_nodeConfig.cmake
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/cmake/test_nodeConfig-version.cmake
+-- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/package.xml

@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.8.3 (/home/timl/ros2_ws/install/turtlesim/share/turtlesim/cmake)
+-- Configuring done (5.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/timl/ros2_ws/build/test_node
+[ 50%] [32mBuilding CXX object CMakeFiles/test_program.dir/src/test.cpp.o[0m
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:12:26:[m[K [01;31m[Kerror: [m[K‘[01m[K_l[m[K’ has not been declared in ‘[01m[Kstd::placeholders[m[K’
+   12 | using std::placeholders::[01;31m[K_l[m[K;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:76:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeomtry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   76 | rclcpp::Publisher<[01;31m[Kgeomtry_msgs[m[K::msg::Twist>::SharedPtr ControlPublisher;
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                   [32m[Kgeometry_msgs[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:76:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   76 | y_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr ControlPublisher;
+      |                   [01;31m[K^[m[K
+
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:76:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   76 | sgs::msg::Twist>::[01;31m[KSharedPtr[m[K ControlPublisher;
+      |                   [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:76:60:[m[K [01;31m[Kerror: [m[K‘[01m[KControlPublisher[m[K’ does not name a type
+   76 | Twist>::SharedPtr [01;31m[KControlPublisher[m[K;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:78:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   78 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:[m[K In constructor ‘[01m[KControllerNode::[01;32m[KControllerNode[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[KControlPublisher[m[K’ was not declared in this scope
+   21 |         [01;31m[KControlPublisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:28:60:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorCallback[m[K’ is not a member of ‘[01m[KControllerNode[m[K’
+   28 | (&ControllerNode::[01;31m[KSensorCallback[m[K, this, _l)
+      |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:28:82:[m[K [01;31m[Kerror: [m[K‘[01m[K_l[m[K’ was not declared in this scope
+   28 | de::SensorCallback, this, [01;31m[K_l[m[K)
+      |                           [01;31m[K^~[m[K
+
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerObject[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimerobject[m[K’?
+   31 |         [01;31m[KtimerObject[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Ktimerobject[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KControlFunction[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:61:13:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerPubslisher[m[K’ was not declared in this scope
+   61 |             [01;31m[KControllerPubslisher[m[K->publish(controlVel);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_program.dir/build.make:76: CMakeFiles/test_program.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

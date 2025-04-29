@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (-) JobUnselected: {'identifier': 'A2'}
+[0.000484] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000641] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000687] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000731] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.000749] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000763] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000776] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000817] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000860] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000877] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000892] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000933] (-) JobUnselected: {'identifier': 'test_node'}
+[0.000949] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000963] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001006] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001052] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.010832] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.012503] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.012607] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/timl/ros2_ws/build/my_cpp_pkg', '--', '-j6', '-l6'], 'cwd': '/home/timl/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'timl', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/timl/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/timl/ros2_ws/install/tutorial_interfaces/lib:/home/timl/ros2_ws/install/turtlesim/lib:/home/timl/ros2_ws/install/polygon_plugins/lib:/home/timl/ros2_ws/install/more_interfaces/lib:/home/timl/ros2_ws/install/custom_action_cpp/lib:/home/timl/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/timl', 'OLDPWD': '/home/timl/ros2_ws/src/my_cpp_pkg/src', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-17b91b7a-f001-4028-8b9b-2d49616457b5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/timl/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/timl/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/timl/.vscode-server/extensions/ms-python.debugpy-2025.6.0/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/timl/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'timl', 'NAME': 'timli', 'WSL_INTEROP': '/run/WSL/397_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/timl/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/home/timl/.cargo/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NGX:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/miget/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/miget/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/miget/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/miget/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/miget/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/miget/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/miget/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/miget/AppData/Local/Microsoft/WinGet/Links:/mnt/c/Users/miget/AppData/Roaming/npm:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/timl/.vscode-server/extensions/ms-python.debugpy-2025.6.0/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/timl/.vscode-server/extensions/ms-python.debugpy-2025.6.0/.noConfigDebugAdapterEndpoints/endpoint-c58e4e2c5186323e.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-56ce9df530.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/timl/ros2_ws/install/A2:/home/timl/ros2_ws/install/cpp_srvcli:/home/timl/ros2_ws/install/cpp_pubsub:/home/timl/ros2_ws/install/tutorial_interfaces:/home/timl/ros2_ws/install/test_node:/home/timl/ros2_ws/install/turtlesim:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/polygon_plugins:/home/timl/ros2_ws/install/polygon_base:/home/timl/ros2_ws/install/my_py_pkg:/home/timl/ros2_ws/install/my_package:/home/timl/ros2_ws/install/my_cpp_pkg:/home/timl/ros2_ws/install/more_interfaces:/home/timl/ros2_ws/install/custom_action_cpp:/home/timl/ros2_ws/install/custom_action_interfaces:/home/timl/ros2_ws/install/cpp_parameters:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/timl/ros2_ws/build/my_cpp_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages:/home/timl/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/timl/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/timl/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/timl/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/timl/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/timl/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/timl/ros2_ws/install/cpp_srvcli:/home/timl/ros2_ws/install/cpp_pubsub:/home/timl/ros2_ws/install/tutorial_interfaces:/home/timl/ros2_ws/install/test_node:/home/timl/ros2_ws/install/turtlesim:/home/timl/ros2_ws/install/polygon_plugins:/home/timl/ros2_ws/install/polygon_base:/home/timl/ros2_ws/install/my_package:/home/timl/ros2_ws/install/my_cpp_pkg:/home/timl/ros2_ws/install/more_interfaces:/home/timl/ros2_ws/install/custom_action_cpp:/home/timl/ros2_ws/install/custom_action_interfaces:/home/timl/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/timl/ros2_ws/install/A2:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.043476] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099486] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.278677] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.299838] (-) TimerEvent: {}
+[0.400152] (-) TimerEvent: {}
+[0.500433] (-) TimerEvent: {}
+[0.599658] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.600503] (-) TimerEvent: {}
+[0.609984] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.627032] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.643372] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700620] (-) TimerEvent: {}
+[0.712446] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.715991] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800738] (-) TimerEvent: {}
+[0.901056] (-) TimerEvent: {}
+[1.001307] (-) TimerEvent: {}
+[1.044322] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101431] (-) TimerEvent: {}
+[1.201667] (-) TimerEvent: {}
+[1.292209] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.301774] (-) TimerEvent: {}
+[1.402076] (-) TimerEvent: {}
+[1.455337] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.495357] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.502184] (-) TimerEvent: {}
+[1.505190] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/timl/ros2_ws/build/my_cpp_pkg\n'}
+[1.551323] (my_cpp_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.555738] (my_cpp_pkg) StdoutLine: {'line': b'[ 30%] Built target cpp_node\n'}
+[1.557718] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target smartphone\n'}
+[1.559594] (my_cpp_pkg) StdoutLine: {'line': b'[ 70%] Built target robot_news_station\n'}
+[1.565930] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] Built target add_two_ints_server\n'}
+[1.602254] (-) TimerEvent: {}
+[1.702548] (-) TimerEvent: {}
+[1.802847] (-) TimerEvent: {}
+[1.903115] (-) TimerEvent: {}
+[2.003458] (-) TimerEvent: {}
+[2.103817] (-) TimerEvent: {}
+[2.204160] (-) TimerEvent: {}
+[2.304415] (-) TimerEvent: {}
+[2.404723] (-) TimerEvent: {}
+[2.505059] (-) TimerEvent: {}
+[2.605397] (-) TimerEvent: {}
+[2.705677] (-) TimerEvent: {}
+[2.806022] (-) TimerEvent: {}
+[2.906369] (-) TimerEvent: {}
+[3.006729] (-) TimerEvent: {}
+[3.107034] (-) TimerEvent: {}
+[3.207380] (-) TimerEvent: {}
+[3.307752] (-) TimerEvent: {}
+[3.408116] (-) TimerEvent: {}
+[3.508453] (-) TimerEvent: {}
+[3.608791] (-) TimerEvent: {}
+[3.709148] (-) TimerEvent: {}
+[3.809517] (-) TimerEvent: {}
+[3.909838] (-) TimerEvent: {}
+[4.010198] (-) TimerEvent: {}
+[4.051236] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaves\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.051462] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<\x1b[01;31m\x1b[Kexample_interfaves\x1b[m\x1b[K::srv::AddTwoInts>::SharedFuture future)\n'}
+[4.051548] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.051623] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[4.051696] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.051771] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[4.051842] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.059418] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaves\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.059636] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<\x1b[01;31m\x1b[Kexample_interfaves\x1b[m\x1b[K::srv::AddTwoInts>::SharedFuture future)\n'}
+[4.059718] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.059793] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[4.059864] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.059936] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[4.060017] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.066963] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaves\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.067338] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<\x1b[01;31m\x1b[Kexample_interfaves\x1b[m\x1b[K::srv::AddTwoInts>::SharedFuture future)\n'}
+[4.067441] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.067527] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Kexample_interfaces\x1b[m\x1b[K\n'}
+[4.067629] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.067707] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[4.067779] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.067851] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[4.067922] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Client<example_interfaves::srv::AddTwoInts>::SharedFuture future)\n'}
+[4.068000] (my_cpp_pkg) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.068071] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaves\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.068144] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<\x1b[01;31m\x1b[Kexample_interfaves\x1b[m\x1b[K::srv::AddTwoInts>::SharedFuture future)\n'}
+[4.068214] (my_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.068285] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.068355] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts>::SharedFuture \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[4.068424] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.068494] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.068564] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts\x1b[34m\x1b[K(\x1b[m\x1b[Krclcpp::Client<example_interfaves::srv::AddTwoInts>::SharedFuture\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[4.068641] (my_cpp_pkg) StderrLine: {'line': b'      |                                \x1b[34m\x1b[K~\x1b[m\x1b[K                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[4.068718] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                  \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.068790] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.068861] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts>::\x1b[01;31m\x1b[KSharedFuture\x1b[m\x1b[K future)\n'}
+[4.068933] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.069040] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.069548] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:26:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.069687] (my_cpp_pkg) StderrLine: {'line': b'   26 |     void callbackCallAddTwoInts(rclcpp::Client<example_interfaves::srv::AddTwoInts>::SharedFuture \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[4.069769] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.069844] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:30:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.069919] (my_cpp_pkg) StderrLine: {'line': b'   30 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.069989] (my_cpp_pkg) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.070057] (my_cpp_pkg) StderrLine: {'line': b'      |      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[4.081453] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAddTwoIntsClientNode::\x1b[01;32m\x1b[KAddTwoIntsClientNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.081676] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:10:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.081769] (my_cpp_pkg) StderrLine: {'line': b'   10 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[4.081843] (my_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.082548] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::\x1b[01;32m\x1b[KcallAddTwoInts\x1b[m\x1b[K(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.082719] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:14:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kls\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::literals::chrono_literals\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.082801] (my_cpp_pkg) StderrLine: {'line': b'   14 |         while (!client->wait_for_service(std::chrono_literals::\x1b[01;31m\x1b[Kls\x1b[m\x1b[K))\n'}
+[4.082876] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.094126] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[4.094647] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.094976] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.095073] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.095151] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.095224] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[4.095296] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[4.095366] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.095437] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.095506] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[4.095576] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[4.095646] (my_cpp_pkg) StderrLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (AddTwoIntsClientNode::*(AddTwoIntsClientNode*, std::_Placeholder<1>))(...)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.095719] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:165:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::same_arguments<std::_Bind<void (AddTwoIntsClientNode::*(AddTwoIntsClientNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.095798] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:700:17:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureWithRequestAndRequestId rclcpp::Client<example_interfaces::srv::AddTwoInts>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with CallbackT = std::_Bind<void (AddTwoIntsClientNode::*(AddTwoIntsClientNode*, std::_Placeholder<1>))(...)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.095876] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:22:35:\x1b[m\x1b[K   required from here\n'}
+[4.095951] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[4.096028] (my_cpp_pkg) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[4.096098] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096168] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[4.096238] (my_cpp_pkg) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[4.096307] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096375] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[4.096444] (my_cpp_pkg) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[4.096513] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096606] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/timl/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:22:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<example_interfaces::srv::AddTwoInts>::async_send_request(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >&, std::_Bind_helper<false, void (AddTwoIntsClientNode::*)(...), AddTwoIntsClientNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096696] (my_cpp_pkg) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[Kclient->async_send_request(request, std::bind(&AddTwoIntsClientNode::callbackCallAddTwoInts, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[4.096768] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096838] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = example_interfaces::srv::AddTwoInts]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096919] (my_cpp_pkg) StderrLine: {'line': b'  672 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[4.096991] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.097061] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.097136] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:669:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::function_traits::same_arguments<std::_Bind<void (AddTwoIntsClientNode::*(AddTwoIntsClientNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.097210] (my_cpp_pkg) StderrLine: {'line': b'  669 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[4.097279] (my_cpp_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.097347] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest, CallbackT&&) \x1b[35m\x1b[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = example_interfaces::srv::AddTwoInts]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.097426] (my_cpp_pkg) StderrLine: {'line': b'  703 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[4.097495] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.097564] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[4.097633] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::\x1b[01;32m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest) \x1b[35m\x1b[K[with ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.097706] (my_cpp_pkg) StderrLine: {'line': b'  637 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[4.097774] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.097842] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:637:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.110299] (-) TimerEvent: {}
+[4.210599] (-) TimerEvent: {}
+[4.310942] (-) TimerEvent: {}
+[4.411261] (-) TimerEvent: {}
+[4.511585] (-) TimerEvent: {}
+[4.611946] (-) TimerEvent: {}
+[4.712284] (-) TimerEvent: {}
+[4.812599] (-) TimerEvent: {}
+[4.912934] (-) TimerEvent: {}
+[5.013317] (-) TimerEvent: {}
+[5.034289] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[5.034749] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/add_two_ints_client.dir/all] Error 2\n'}
+[5.035033] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.037211] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[5.047553] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[5.058467] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[1.325s] Invoking command in '/home/timl/ros2_ws/src/A2': PYTHONPATH=/home/timl/ros2_ws/build/A2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/A2 build --build-base /home/timl/ros2_ws/build/A2/build install --record /home/timl/ros2_ws/build/A2/install.log --single-version-externally-managed install_data
+[1.626s] running egg_info
+[1.626s] creating ../../build/A2/A2.egg-info
+[1.649s] writing ../../build/A2/A2.egg-info/PKG-INFO
+[1.650s] writing dependency_links to ../../build/A2/A2.egg-info/dependency_links.txt
+[1.650s] writing requirements to ../../build/A2/A2.egg-info/requires.txt
+[1.650s] writing top-level names to ../../build/A2/A2.egg-info/top_level.txt
+[1.650s] writing manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+[1.698s] reading manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+[1.698s] writing manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.699s] running build_py
+[1.699s] creating /home/timl/ros2_ws/build/A2/build
+[1.699s] creating /home/timl/ros2_ws/build/A2/build/lib
+[1.699s] creating /home/timl/ros2_ws/build/A2/build/lib/A2
+[1.700s] copying A2/__init__.py -> /home/timl/ros2_ws/build/A2/build/lib/A2
+[1.700s] copying A2/number_publisher.py -> /home/timl/ros2_ws/build/A2/build/lib/A2
+[1.700s] running install
+[1.706s] running install_lib
+[1.729s] creating /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2
+[1.729s] copying /home/timl/ros2_ws/build/A2/build/lib/A2/__init__.py -> /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2
+[1.730s] copying /home/timl/ros2_ws/build/A2/build/lib/A2/number_publisher.py -> /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2
+[1.730s] byte-compiling /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2/__init__.py to __init__.cpython-312.pyc
+[1.731s] byte-compiling /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2/number_publisher.py to number_publisher.cpython-312.pyc
+[1.732s] running install_data
+[1.732s] creating /home/timl/ros2_ws/install/A2/share/ament_index
+[1.733s] creating /home/timl/ros2_ws/install/A2/share/ament_index/resource_index
+[1.733s] creating /home/timl/ros2_ws/install/A2/share/ament_index/resource_index/packages
+[1.733s] copying resource/A2 -> /home/timl/ros2_ws/install/A2/share/ament_index/resource_index/packages
+[1.734s] copying package.xml -> /home/timl/ros2_ws/install/A2/share/A2
+[1.734s] running install_egg_info
+[1.758s] Copying ../../build/A2/A2.egg-info to /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2-0.0.0-py3.12.egg-info
+[1.760s] running install_scripts
+[1.910s] writing list of installed files to '/home/timl/ros2_ws/build/A2/install.log'
+[1.947s] Invoked command in '/home/timl/ros2_ws/src/A2' returned '0': PYTHONPATH=/home/timl/ros2_ws/build/A2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/A2 build --build-base /home/timl/ros2_ws/build/A2/build install --record /home/timl/ros2_ws/build/A2/install.log --single-version-externally-managed install_data

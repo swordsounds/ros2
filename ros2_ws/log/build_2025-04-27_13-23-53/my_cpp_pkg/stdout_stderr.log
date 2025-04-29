@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/timl/ros2_ws/build/my_cpp_pkg
+[ 16%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[ 83%] Built target cpp_node
+[ 83%] Built target robot_news_station
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartphoneNode::[01;32m[KSmartphoneNode[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   14 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

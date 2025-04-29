@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/timl/ros2_ws/src/build",
+  "command": "/usr/bin/g++  -I/home/timl/ros2_ws/src/my_package/include -g -Wall -Wextra -Wpedantic -o CMakeFiles/my_node.dir/src/my_node.cpp.o -c /home/timl/ros2_ws/src/my_package/src/my_node.cpp",
+  "file": "/home/timl/ros2_ws/src/my_package/src/my_node.cpp",
+  "output": "CMakeFiles/my_node.dir/src/my_node.cpp.o"
+}
+]

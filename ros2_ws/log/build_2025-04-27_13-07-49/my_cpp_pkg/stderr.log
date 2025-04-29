@@ -1,0 +1,15 @@
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:22:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |     std::string [01;31m[Krobot_name[m[K
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                           [32m[K;[m[K
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::[01;32m[KRobotNewsStationNode[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:12:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kbing[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kbind[m[K’?
+   12 |         timer = this->create_wall_timer(0.5s, std::[01;31m[Kbing[m[K(&RobotNewsStationNode::publishNews, this));
+      |                                                    [01;31m[K^~~~[m[K
+      |                                                    [32m[Kbind[m[K
+[01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   14 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

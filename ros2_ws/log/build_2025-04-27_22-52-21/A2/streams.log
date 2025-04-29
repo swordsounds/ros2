@@ -1,0 +1,25 @@
+[0.915s] Invoking command in '/home/timl/ros2_ws/src/A2': PYTHONPATH=/home/timl/ros2_ws/build/A2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/A2 build --build-base /home/timl/ros2_ws/build/A2/build install --record /home/timl/ros2_ws/build/A2/install.log --single-version-externally-managed install_data
+[1.217s] running egg_info
+[1.240s] writing ../../build/A2/A2.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../build/A2/A2.egg-info/dependency_links.txt
+[1.241s] writing entry points to ../../build/A2/A2.egg-info/entry_points.txt
+[1.241s] writing requirements to ../../build/A2/A2.egg-info/requires.txt
+[1.241s] writing top-level names to ../../build/A2/A2.egg-info/top_level.txt
+[1.287s] reading manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+[1.288s] writing manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+[1.288s] running build
+[1.288s] running build_py
+[1.288s] copying A2/number_subscriber.py -> /home/timl/ros2_ws/build/A2/build/lib/A2
+[1.289s] running install
+[1.295s] running install_lib
+[1.318s] copying /home/timl/ros2_ws/build/A2/build/lib/A2/number_subscriber.py -> /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2
+[1.319s] byte-compiling /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2/number_subscriber.py to number_subscriber.cpython-312.pyc
+[1.319s] running install_data
+[1.320s] running install_egg_info
+[1.344s] removing '/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2-0.0.0-py3.12.egg-info' (and everything under it)
+[1.345s] Copying ../../build/A2/A2.egg-info to /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2-0.0.0-py3.12.egg-info
+[1.346s] running install_scripts
+[1.492s] Installing counter_pub script to /home/timl/ros2_ws/install/A2/lib/A2
+[1.492s] Installing counter_sub script to /home/timl/ros2_ws/install/A2/lib/A2
+[1.492s] writing list of installed files to '/home/timl/ros2_ws/build/A2/install.log'
+[1.519s] Invoked command in '/home/timl/ros2_ws/src/A2' returned '0': PYTHONPATH=/home/timl/ros2_ws/build/A2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/A2 build --build-base /home/timl/ros2_ws/build/A2/build install --record /home/timl/ros2_ws/build/A2/install.log --single-version-externally-managed install_data

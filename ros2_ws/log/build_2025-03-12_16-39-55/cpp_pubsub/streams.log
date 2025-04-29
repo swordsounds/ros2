@@ -1,0 +1,22 @@
+[0.224s] Invoking command in '/home/timl/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[0.250s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.485s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.750s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.862s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.864s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.423s] -- Found tutorial_interfaces: 0.0.0 (/home/timl/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.584s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.584s] [31mCMake Error at /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):
+[1.584s]   find_package(ament_lint_auto) must be called before ament_package()
+[1.584s] Call Stack (most recent call first):
+[1.585s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:41 (include)
+[1.585s]   CMakeLists.txt:37 (find_package)
+[1.585s] 
+[1.585s] [0m
+[1.585s] -- Configuring incomplete, errors occurred!
+[1.592s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.595s] Invoked command in '/home/timl/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_pubsub -- -j6 -l6

@@ -1,0 +1,24 @@
+[0.208s] Invoking command in '/home/timl/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[0.235s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.463s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.704s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.714s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.813s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.815s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.347s] -- Found tutorial_interfaces: 0.0.0 (/home/timl/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.506s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+[1.506s]   ament_environment_hooks() must be called before
+[1.507s]   ament_generate_package_environment() (which is invoked by ament_package())
+[1.507s] Call Stack (most recent call first):
+[1.507s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[1.507s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.507s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.507s]   CMakeLists.txt:48 (ament_package)
+[1.507s] 
+[1.507s] [0m
+[1.507s] -- Configuring incomplete, errors occurred!
+[1.514s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.517s] Invoked command in '/home/timl/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_pubsub -- -j6 -l6

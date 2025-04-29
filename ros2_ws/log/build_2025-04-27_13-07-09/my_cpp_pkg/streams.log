@@ -1,0 +1,36 @@
+[0.015s] Invoking command in '/home/timl/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.089s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.329s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.674s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.694s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.891s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.536s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.751s] -- Configuring done (1.7s)
+[1.788s] -- Generating done (0.0s)
+[1.797s] -- Build files have been written to: /home/timl/ros2_ws/build/my_cpp_pkg
+[1.835s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.847s] [ 75%] Built target cpp_node
+[4.392s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:22:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.392s]    22 |     std::string [01;31m[Krobot_name[m[K
+[4.392s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[4.392s]       |                           [32m[K;[m[K
+[4.408s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::[01;32m[KRobotNewsStationNode[m[K()[m[K’:
+[4.408s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:12:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kbing[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kbind[m[K’?
+[4.408s]    12 |         timer = this->create_wall_timer(0.5s, std::[01;31m[Kbing[m[K(&RobotNewsStationNode::publishNews, this));
+[4.408s]       |                                                    [01;31m[K^~~~[m[K
+[4.408s]       |                                                    [32m[Kbind[m[K
+[4.408s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.408s]    14 |     [01;31m[K}[m[K
+[4.408s]       |     [01;31m[K^[m[K
+[4.409s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid RobotNewsStationNode::[01;32m[KpublishNews[m[K()[m[K’:
+[4.409s] [01m[K/home/timl/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:20:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublisher[m[K’
+[4.409s]    20 |         [01;31m[Kpublisher[m[K->publish(msg)
+[4.409s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.456s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[5.456s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+[5.456s] gmake: *** [Makefile:146: all] Error 2
+[5.458s] Invoked command in '/home/timl/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/home/timl/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/my_cpp_pkg -- -j6 -l6

@@ -1,0 +1,40 @@
+[0.212s] Invoking command in '/home/timl/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.238s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.465s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.718s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.729s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.831s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.377s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.438s] -- Found tutorial_interfaces: 0.0.0 (/home/timl/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.501s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.599s] -- Configured cppcheck include dirs: 
+[1.599s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'lint_cmake' to check CMake code style
+[1.600s] -- Added test 'uncrustify' to check C / C++ code style
+[1.600s] -- Configured uncrustify additional arguments: 
+[1.601s] -- Added test 'xmllint' to check XML markup files
+[1.601s] -- Configuring done (1.4s)
+[1.618s] -- Generating done (0.0s)
+[1.624s] -- Build files have been written to: /home/timl/ros2_ws/build/cpp_srvcli
+[1.673s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.674s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.956s] [01m[K/home/timl/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[1.956s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[1.956s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.956s] compilation terminated.
+[1.957s] [01m[K/home/timl/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[1.957s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[1.957s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.957s] compilation terminated.
+[1.960s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[1.960s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.961s] gmake[1]: *** Waiting for unfinished jobs....
+[1.961s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[1.961s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[1.961s] gmake: *** [Makefile:146: all] Error 2
+[1.963s] Invoked command in '/home/timl/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6

@@ -1,0 +1,25 @@
+[0.197s] Invoking command in '/home/timl/ros2_ws/build/test_node': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/timl/ros2_ws/build/test_node -- -j6 -l6
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/test_program.dir/src/test.cpp.o[0m
+[8.621s] [100%] [32m[1mLinking CXX executable test_program[0m
+[9.124s] [100%] Built target test_program
+[9.134s] Invoked command in '/home/timl/ros2_ws/build/test_node' returned '0': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/timl/ros2_ws/build/test_node -- -j6 -l6
+[9.143s] Invoking command in '/home/timl/ros2_ws/build/test_node': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/timl/ros2_ws/build/test_node
+[9.150s] -- Install configuration: ""
+[9.150s] -- Installing: /home/timl/ros2_ws/install/test_node/lib/test_node/test_program
+[9.155s] -- Set non-toolchain portion of runtime path of "/home/timl/ros2_ws/install/test_node/lib/test_node/test_program" to ""
+[9.155s] -- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/package_run_dependencies/test_node
+[9.156s] -- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/parent_prefix_path/test_node
+[9.156s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/ament_prefix_path.sh
+[9.156s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/ament_prefix_path.dsv
+[9.156s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/path.sh
+[9.157s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/environment/path.dsv
+[9.157s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.bash
+[9.157s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.sh
+[9.157s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.zsh
+[9.157s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/local_setup.dsv
+[9.158s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/package.dsv
+[9.158s] -- Installing: /home/timl/ros2_ws/install/test_node/share/ament_index/resource_index/packages/test_node
+[9.158s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/cmake/test_nodeConfig.cmake
+[9.159s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/cmake/test_nodeConfig-version.cmake
+[9.159s] -- Installing: /home/timl/ros2_ws/install/test_node/share/test_node/package.xml
+[9.161s] Invoked command in '/home/timl/ros2_ws/build/test_node' returned '0': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/timl/ros2_ws/build/test_node

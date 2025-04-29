@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/timl/ros2_ws/src/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/src/install/polygon_base
+[0.218s] -- The C compiler identification is GNU 13.3.0
+[0.982s] -- The CXX compiler identification is GNU 13.3.0
+[1.812s] -- Detecting C compiler ABI info
+[2.157s] -- Detecting C compiler ABI info - done
+[2.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.167s] -- Detecting C compile features
+[2.168s] -- Detecting C compile features - done
+[2.283s] -- Detecting CXX compiler ABI info
+[2.666s] -- Detecting CXX compiler ABI info - done
+[2.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.676s] -- Detecting CXX compile features
+[2.677s] -- Detecting CXX compile features - done
+[2.681s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.840s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.960s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.242s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.338s] -- Configuring done (3.3s)
+[3.344s] -- Generating done (0.0s)
+[3.347s] -- Build files have been written to: /home/timl/ros2_ws/src/build/polygon_base
+[3.354s] Invoked command in '/home/timl/ros2_ws/src/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/src/install/polygon_base
+[3.356s] Invoking command in '/home/timl/ros2_ws/src/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/src/build/polygon_base -- -j6 -l6
+[3.404s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[6.797s] [100%] [32m[1mLinking CXX executable area_node[0m
+[7.042s] [100%] Built target area_node
+[7.053s] Invoked command in '/home/timl/ros2_ws/src/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/src/build/polygon_base -- -j6 -l6
+[7.062s] Invoking command in '/home/timl/ros2_ws/src/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/src/build/polygon_base
+[7.070s] -- Install configuration: ""
+[7.070s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/include
+[7.070s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/include/polygon_base
+[7.070s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[7.071s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/lib/polygon_base/area_node
+[7.072s] -- Set non-toolchain portion of runtime path of "/home/timl/ros2_ws/src/install/polygon_base/lib/polygon_base/area_node" to ""
+[7.072s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[7.073s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[7.073s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[7.074s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[7.074s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/environment/path.sh
+[7.074s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/environment/path.dsv
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/local_setup.bash
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/local_setup.sh
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/local_setup.zsh
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/local_setup.dsv
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/package.dsv
+[7.075s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[7.077s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.077s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[7.077s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[7.077s] -- Installing: /home/timl/ros2_ws/src/install/polygon_base/share/polygon_base/package.xml
+[7.082s] Invoked command in '/home/timl/ros2_ws/src/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --install /home/timl/ros2_ws/src/build/polygon_base

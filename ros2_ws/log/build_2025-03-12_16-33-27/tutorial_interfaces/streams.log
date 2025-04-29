@@ -1,0 +1,19 @@
+[0.013s] Invoking command in '/home/timl/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/install/tutorial_interfaces
+[0.025s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.257s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.487s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.582s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.585s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.585s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[0.585s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.585s]   '/home/timl/ros2_ws/src/tutorial_interfaces'
+[0.585s] Call Stack (most recent call first):
+[0.585s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.585s] 
+[0.586s] [0m
+[0.586s] -- Configuring incomplete, errors occurred!
+[0.590s] Invoked command in '/home/timl/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /home/timl/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/timl/ros2_ws/install/tutorial_interfaces

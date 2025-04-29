@@ -1,0 +1,24 @@
+[0.172s] Invoking command in '/home/timl/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.238s] [ 50%] Built target server
+[0.239s] [100%] Built target client
+[0.255s] Invoked command in '/home/timl/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.256s] Invoking command in '/home/timl/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/timl/ros2_ws/build/cpp_srvcli
+[0.270s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[0.271s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[0.271s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[0.271s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[0.271s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[0.272s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[0.272s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[0.272s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[0.272s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[0.272s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[0.273s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[0.273s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[0.273s] -- Installing: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[0.274s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[0.274s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[0.274s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[0.274s] -- Up-to-date: /home/timl/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[0.275s] Invoked command in '/home/timl/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/timl/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/timl/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/timl/ros2_ws/build/cpp_srvcli

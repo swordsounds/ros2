@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/timl/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/timl/ros2_ws/install/turtlesim/include/**",
+        "/home/timl/ros2_ws/install/polygon_plugins/include/**",
+        "/home/timl/ros2_ws/install/polygon_base/include/**",
+        "/home/timl/ros2_ws/install/more_interfaces/include/**",
+        "/home/timl/ros2_ws/install/custom_action_interfaces/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/timl/ros2_ws/ros_tutorials/turtlesim/include/**",
+        "/home/timl/ros2_ws/src/cpp_parameters/include/**",
+        "/home/timl/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/timl/ros2_ws/src/cpp_srvcli/include/**",
+        "/home/timl/ros2_ws/src/custom_action_cpp/include/**",
+        "/home/timl/ros2_ws/src/custom_action_interfaces/include/**",
+        "/home/timl/ros2_ws/src/more_interfaces/include/**",
+        "/home/timl/ros2_ws/src/my_cpp_pkg/include/**",
+        "/home/timl/ros2_ws/src/my_package/include/**",
+        "/home/timl/ros2_ws/src/polygon_base/include/**",
+        "/home/timl/ros2_ws/src/polygon_plugins/include/**",
+        "/home/timl/ros2_ws/src/test_node/include/**",
+        "/home/timl/ros2_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

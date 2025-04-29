@@ -1,0 +1,32 @@
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:74:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeomtry_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   74 |     rclcpp::Publisher<[01;31m[Kgeomtry_msgs[m[K::msg::Twist>::SharedPtr ControlPublisher;
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Kgeometry_msgs[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:74:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     rclcpp::Publisher<geomtry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr ControlPublisher;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:74:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |     rclcpp::Publisher<geomtry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K ControlPublisher;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:74:60:[m[K [01;31m[Kerror: [m[K‘[01m[KControlPublisher[m[K’ does not name a type
+   74 |     rclcpp::Publisher<geomtry_msgs::msg::Twist>::SharedPtr [01;31m[KControlPublisher[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:76:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   76 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:[m[K In constructor ‘[01m[KControllerNode::[01;32m[KControllerNode[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KControlPublisher[m[K’ was not declared in this scope
+   22 |         [01;31m[KControlPublisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 5);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:27:40:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorCallback[m[K’ is not a member of ‘[01m[KControllerNode[m[K’
+   27 |             std::bind(&ControllerNode::[01;31m[KSensorCallback[m[K, this, _1));
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KControlFunction[m[K()[m[K’:
+[01m[K/home/timl/ros2_ws/src/test_node/src/test.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerPublisher[m[K’ was not declared in this scope
+   60 |         [01;31m[KControllerPublisher[m[K->publish(controlVel);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_program.dir/build.make:76: CMakeFiles/test_program.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

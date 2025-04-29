@@ -1,0 +1,18 @@
+[0.235s] Invoking command in '/home/timl/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.292s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.292s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.588s] [01m[K/home/timl/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.588s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[0.588s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.588s] compilation terminated.
+[0.588s] [01m[K/home/timl/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.588s]     2 | #include [01;31m[K"tutorial_interfaces/srv/add_two_ints.hpp"[m[K
+[0.588s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.588s] compilation terminated.
+[0.590s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[0.590s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[0.591s] gmake[1]: *** Waiting for unfinished jobs....
+[0.591s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.591s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.591s] gmake: *** [Makefile:146: all] Error 2
+[0.593s] Invoked command in '/home/timl/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/timl/ros2_ws/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /home/timl/ros2_ws/build/cpp_srvcli -- -j6 -l6

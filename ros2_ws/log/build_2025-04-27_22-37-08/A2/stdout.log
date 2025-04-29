@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/A2/A2.egg-info/PKG-INFO
+writing dependency_links to ../../build/A2/A2.egg-info/dependency_links.txt
+writing entry points to ../../build/A2/A2.egg-info/entry_points.txt
+writing requirements to ../../build/A2/A2.egg-info/requires.txt
+writing top-level names to ../../build/A2/A2.egg-info/top_level.txt
+reading manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+writing manifest file '../../build/A2/A2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying A2/number_publisher.py -> /home/timl/ros2_ws/build/A2/build/lib/A2
+running install
+running install_lib
+copying /home/timl/ros2_ws/build/A2/build/lib/A2/number_publisher.py -> /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2
+byte-compiling /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2/number_publisher.py to number_publisher.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/A2/A2.egg-info to /home/timl/ros2_ws/install/A2/lib/python3.12/site-packages/A2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing counter_node script to /home/timl/ros2_ws/install/A2/lib/A2
+writing list of installed files to '/home/timl/ros2_ws/build/A2/install.log'
