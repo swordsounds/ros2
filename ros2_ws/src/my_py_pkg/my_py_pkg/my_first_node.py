@@ -25,7 +25,7 @@ def main(args=None):
 if __name__ == "__main__":
     main()
 
-# ros2 pkg create pkg_name --build-type ament_python --dependencies rclpy
+# ros2 pkg create <pkg_name> --build-type ament_python --dependencies rclpy
 # chmod +x my_first_node.py
 
 # never build in the src file
