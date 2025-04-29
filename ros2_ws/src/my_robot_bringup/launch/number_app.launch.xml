@@ -1,5 +1,8 @@
 <launch>
-    <node pkg="A2" exec="counter_pub"/>
-    <node pkg="my_py_pkg" exec="py_node"/>
+    <node pkg="A2" exec="counter_pub" name="my_number_publisher">
+        <remap from="/number" to="/my_number" />
+    </node>
+    
+    <node pkg="my_py_pkg" exec="py_node" name="my_hello"/>
 </launch>
 <!-- ros2 launch <PKG_NAME> <EXECUTABLE> -->
