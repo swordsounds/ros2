@@ -13,25 +13,35 @@
     <link name="base_link">
         <visual>
             <geometry>
-                <cylinder size="0.6 0.4 0.2" /> <!-- LWH in meters -->
+                <box size="0.6 0.4 0.2" /> <!-- LWH in meters -->
             </geometry>
-            <origin xyz="0 0 0.1" rpy=" 0 0 0" /> <!-- roll pitch yaw - RPY -->
+            <origin xyz="0 0 0.1" rpy="0 0 0" /> <!-- roll pitch yaw - RPY -->
             <material name="green" />
         </visual>
     </link>
-
 
     <link name="second_link">
         <visual>  
             <geometry>
                 <cylinder radius="0.1" length="0.2"/>
             </geometry>
-            <origin xyz="0 0 0" rpy=" 0 0 0" />
+            <origin xyz="0 0 0.1" rpy=" 0 0 0" />
             <material name="grey" />
         </visual>
     </link>
 
+    <joint name="base_second_joint" type="revolute"> <!-- parent_child_joint -->
+        <parent link="base_link" />
+        <child link="second_link" />
+        <origin xyz="0 0 0.2" rpy="0 0 0" />  <!-- make sure you make the origin of the TF corrent before the visual -->
+        <axis xyz="0 0 1" />
+        <limit lower="-1.57" upper="1.57" velocity="100" effort="100"/> <!-- in radians -->
+    </joint> 
+
+
 </robot>
 
 <!-- ros2 launch urdf_tutorial display.launch.py model=:/home/timl/my_robot.urdf -->
-<!-- /home/timl/my_robot.urdf - if not working look at-->
+<!-- /home/timl/my_robot.urdf - if not working look at absolute path-->
+<!-- PUT EVERYTHING AT ORIGIN 0 at first-->
+<!--  -->
