@@ -25,13 +25,12 @@
                 </geometry>
                 <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
             </collision>
-            
+
         </link>
     </xacro:macro>
 
     <xacro:wheel_link prefix="right" />
     <xacro:wheel_link prefix="left" />
-
 
     <link name="base_footprint" />
 
