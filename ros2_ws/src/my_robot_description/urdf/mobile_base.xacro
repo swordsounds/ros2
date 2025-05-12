@@ -49,7 +49,7 @@
 
     <xacro:wheel_link prefix="right" />
     <xacro:wheel_link prefix="left" />
-
+    
     <link name="caster_wheel_link">
         <visual>
             <geometry>
