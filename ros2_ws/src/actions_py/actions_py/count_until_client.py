@@ -30,9 +30,12 @@ class CountUntilClientNode(Node): # MODIFY NAME
     def goal_response_callback(self, future): # Server responds with accepted or rejected
         self.goal_handle: ClientGoalHandle = future.result()
         if self.goal_handle.accepted:
+            self.get_logger().info("Goal got accepted.")
             self.goal_handle.\
                 get_result_async().\
                 add_done_callback(self.goal_result_callback)
+        else:
+            self.get_logger().warn("Goal got rejected.")
     
     def goal_result_callback(self, future): # Server responds with result
         result = future.result().result
@@ -44,6 +47,7 @@ def main(args=None):
     rclpy.init(args=args)
     node = CountUntilClientNode() # MODIFY NAME
     node.send_goal(6, 1.0)
+    node.send_goal(-1, 1.0)
     rclpy.spin(node)
     rclpy.shutdown()
 
